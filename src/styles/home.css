@@ -1,0 +1,41 @@
+.header{
+    background-color: blueviolet;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+}
+.mainContainer{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 120vh;
+    display: flex;
+}
+.sidebar{
+    width:20%;
+    height: 120vh;
+    background-color: red;
+}
+@media screen and (max-width: 480px) {
+    .sidebar{
+        display: none;
+    }
+  }
+
+  .content{
+    padding-top: 100px;
+    /* background-color: green; */
+   /* width: 80%; */
+   height: 120vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+  }
+  .item{
+    /* background-color: brown; */
+    width:18rem;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 1px 5px 8px #888888;
+    border-radius: 5px;
+
+  }
